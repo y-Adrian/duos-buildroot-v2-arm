@@ -1,0 +1,3 @@
+[submodule "host-tools"]
+	path = host-tools
+	url = git@github.com:y-Adrian/host-tools.git
