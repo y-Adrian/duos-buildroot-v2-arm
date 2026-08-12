@@ -3,6 +3,7 @@
 #include "cv181x_asic_bga.dtsi"
 #include "cv181x_asic_sd.dtsi"
 #include "cv181x_default_memmap.dtsi"
+#include "ky-004-button.dtsi"
 
 / {
 	model = "Milk-V DuoS";

@@ -213,7 +213,11 @@
 
 	gpio0: gpio@03020000 {
 		porta: gpio-controller@0 {
+			gpio-controller;
+			#gpio-cells = <2>;
+			ngpios = <32>;
 			interrupt-controller;
+			#interrupt-cells = <2>;
 			interrupts = <60 IRQ_TYPE_LEVEL_HIGH>;
 			interrupt-parent = <&plic0>;
 		};
